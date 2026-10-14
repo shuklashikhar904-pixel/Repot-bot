@@ -1191,7 +1191,7 @@ async def watcher(event):
                 return
             except PhoneCodeExpiredError:
                 await event.reply("❌ code expired. tap link account to restart.")
-                                     try:
+                try:
                     await client.disconnect()
                 except Exception:
                     pass
