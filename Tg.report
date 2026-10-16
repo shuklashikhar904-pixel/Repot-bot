@@ -38,17 +38,8 @@ MAX_ADMINS = 7
 REQUIRED_CHANNELS = ["trusteddealers_07", "trusteddealers07"]
 
 
-# ─── API POOL — all 8 pairs ───────────────────────────────────
-API_POOL = [
-    (33576198, "7b59cd4d6fed5c8aa9c794f204e25050", "in", "in-hanuman"),
-    (36603675, "178e45d560ea6d3d45ef83603165f25b", "in", "in-shiv"),
-    (34540299, "edf6ec574eb38bd1d60facca6ea360e2", "in", "in-krishna"),
-    (31222438, "d17172a533c51807a7fc4f91bf73a5f5", "in", "in-laxmi"),
-    (37955502, "0826f6dcedf65ea1bf90743f1a577cc4", "ru", "ru-russia07"),
-    (33312136, "528c3a422266cff9d8d7568896bdec3e", "ru", "ru-daddy07"),
-    (22015656, "23f9446294df969c87a4921a63f2c7c3", "ru", "ru-superhero07"),
-    (30787958, "d20dbf7672502bd1af9fa63080580a25", "ru", "ru-naruto07"),
-]
+# ─── API POOL — all ? pairs ───────────────────────────────────
+API_POOL = 
 
 REPORT_REASONS = ["spam", "violence", "fake", "other"]
 
